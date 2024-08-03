@@ -6,5 +6,9 @@ function Phone(serial, color, price) {
   this.price = price;
 }
 
+// CREATE NEW INSTANCE FROM CONSTRUCTOR FUNCTION
 let phone1 = new Phone(39, "red", 399);
+
 console.log(phone1);
+
+console.log(phone1 instanceof Phone); // TRUE
